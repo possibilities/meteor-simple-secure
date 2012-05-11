@@ -1,0 +1,37 @@
+<head>
+  <title>Meteor Simple Secure</title>
+</head>
+
+<body>
+  {{> simpleSecureDemo}}
+</body>
+
+<template name="simpleSecureDemo">
+  {{#with demoLayout}}
+    {{#markdown}}{{{header}}}{{/markdown}}
+  {{/with}}
+
+  <div class="well">
+    <h4>Read only bits</h4>
+
+    {{#if successMessage}}
+      <div id="successMessage" class="alert alert-error">{{successMessage}}</div>
+    {{/if}}
+
+    {{#if readOnlyData}}
+      {{#each readOnlyData}}
+          <span class="label label-warning">{{tidbit}}</span>
+      {{/each}}
+
+      <div>
+        <input class="delete btn btn-primary" type="button" value="Delete!">
+      </div>
+    {{else}}
+      <p><em>There are none!</em></p>
+    {{/if}}
+
+  </div>
+  {{#with demoLayout}}
+    {{#markdown}}{{{footer}}}{{/markdown}}
+  {{/with}}
+</template>

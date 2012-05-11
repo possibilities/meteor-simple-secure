@@ -1,0 +1,29 @@
+body {
+  padding: 20px;
+  width: 700px;
+}
+
+h1 {
+  padding-bottom: 10px;
+}
+
+h2 {
+  padding-bottom: 10px;
+}
+
+h3 {
+  padding-bottom: 5px;
+}
+
+input {
+  margin-top: 20px;
+}
+
+.well h4 {
+  margin-bottom: 10px;
+}
+
+pre {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
