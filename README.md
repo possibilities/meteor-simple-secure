@@ -1,10 +1,6 @@
-# Simple Secure for Meteor
+# Simple Security Helper for Meteor
 
-Simple security helper for Meteor
-
-## Demo
-
-[Check it out](http://simple-secure.meteor.com/)
+Simple security helper for Meteor that turns off all (or some) of the update/insert/remove server methods to prevent clients from changing data outside of the app's `Meteor.methods`.
 
 ## Installation
 
