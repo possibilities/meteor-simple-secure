@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Simple security helper for Meteor"
+  summary: "A simple smart package for turning off Meteor's automatically generated Mongo accessors"
 });
 
 Package.on_use(function (api) {

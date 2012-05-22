@@ -1,6 +1,8 @@
 # Simple Security Helper for Meteor
 
-Simple security helper for Meteor that turns off all (or some) of the update/insert/remove server methods to prevent clients from changing data outside of the app's `Meteor.methods`.
+A simple smart package for turning off Meteor's automatically generated Mongo accessors
+
+Exports method for turning off all (or some) of the update/insert/remove server methods to prevent clients from changing data outside of the app's `Meteor.methods`.
 
 ## Installation
 
